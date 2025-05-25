@@ -12,10 +12,19 @@ public class GameController : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
+{
+    if (collision.CompareTag("Enemy")) 
     {
-        if (collision.CompareTag("Enemy")) ;
-        {
-            Die();
-        }
+        Die();
+    }
+}
+    
+    void Die()
+{
+    Respawn();
+}
+    void Respawn()
+{
+    transform.position = startPos;
     }
 }
