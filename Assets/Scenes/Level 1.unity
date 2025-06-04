@@ -11941,6 +11941,10 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  wallCheck: {fileID: 444631742}
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 192
 --- !u!61 &826810041
 BoxCollider2D:
   m_ObjectHideFlags: 0

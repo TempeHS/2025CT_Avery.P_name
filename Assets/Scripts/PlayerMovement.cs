@@ -12,6 +12,13 @@ public class PlayerMovement : MonoBehaviour
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
 
+    private bool isWallJumping;
+    private float wallJumpingDirection;
+    private float wallJumpingTime = 0.2f;
+    private float wallJumpingCounter;
+    private float wallJumpingDuration = 0.4f;
+    private Vector2 wallJumpingPower = new Vector2(8f, 16f);
+
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
@@ -46,17 +53,17 @@ public class PlayerMovement : MonoBehaviour
 
     private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, 0.5f, groundLayer);
     }
 
     private bool IsWalled()
     {
-        return Physics.OverlapCircle(wallCheck.position, 0.2f, wallLayer);
+        return Physics2D.OverlapCircle(wallCheck.position, 0.2f, wallLayer);
     }
 
     private void WallSlide()
     {
-        if (IsWalled() && !IsGrounded() && != 0f)
+        if (IsWalled() && !IsGrounded() && horizontal != 0f)
         {
             isWallSliding = true;
             rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
@@ -65,6 +72,11 @@ public class PlayerMovement : MonoBehaviour
         {
             isWallSliding = false;
         }
+    }
+
+    private void WallJump()
+    {
+        
     }
 
     private void Flip()
