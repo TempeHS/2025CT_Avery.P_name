@@ -294,6 +294,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3e906cb8ac71754586a93edecb3b408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointA: {fileID: 1799896155}
+  pointB: {fileID: 668401792}
+  speed: 2
 --- !u!1 &444631741
 GameObject:
   m_ObjectHideFlags: 0
