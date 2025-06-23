@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 434581615}
   - component: {fileID: 434581614}
   - component: {fileID: 434581618}
+  - component: {fileID: 434581619}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -297,6 +298,27 @@ MonoBehaviour:
   pointA: {fileID: 1799896155}
   pointB: {fileID: 668401792}
   speed: 2
+--- !u!95 &434581619
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434581613}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &444631741
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,7 +609,7 @@ Transform:
   m_GameObject: {fileID: 668401792}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.22, y: -5.78, z: -0.880786}
+  m_LocalPosition: {x: 49.19, y: -5.5, z: -0.880786}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12375,7 +12397,7 @@ Transform:
   m_GameObject: {fileID: 1799896155}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 49.19, y: -5.78, z: -0.880786}
+  m_LocalPosition: {x: 22.5, y: -5.5, z: -0.880786}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
