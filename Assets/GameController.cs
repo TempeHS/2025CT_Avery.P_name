@@ -5,11 +5,11 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     Vector2 startPos;
-    Rigidbody playerRb;
+    Rigidbody2D playerRb;
 
     private void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        playerRb = GetComponent<Rigidbody2D>();
     }
 
     private void Start()
@@ -32,9 +32,11 @@ public class GameController : MonoBehaviour
 
     IEnumerator Respawn(float duration)
     {
-        spriteRenderer.enabled = false;
+        playerRb.simulated = false;
+        transform.localScale = new Vector3(0, 0, 0);
         yield return new WaitForSeconds(duration);
         transform.position = startPos;
-        spriteRenderer.enabled = true;
+        transform.localScale = new Vector3(1, 1, 1);
+        playerRb.simulated = true;
     }
 }
