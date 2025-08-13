@@ -603,7 +603,7 @@ Transform:
   m_GameObject: {fileID: 541586379}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 59.52, y: 14.5, z: 2.4039536}
+  m_LocalPosition: {x: 59.88, y: 14.5, z: 2.4039536}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8860,8 +8860,8 @@ Tilemap:
   - first: {x: 11, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 3
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8870,8 +8870,8 @@ Tilemap:
   - first: {x: 12, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8880,8 +8880,8 @@ Tilemap:
   - first: {x: 13, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8890,8 +8890,8 @@ Tilemap:
   - first: {x: 14, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8900,8 +8900,8 @@ Tilemap:
   - first: {x: 15, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8910,8 +8910,8 @@ Tilemap:
   - first: {x: 16, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8920,8 +8920,8 @@ Tilemap:
   - first: {x: 17, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8930,8 +8930,8 @@ Tilemap:
   - first: {x: 18, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8940,8 +8940,8 @@ Tilemap:
   - first: {x: 19, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8950,8 +8950,8 @@ Tilemap:
   - first: {x: 20, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8960,8 +8960,8 @@ Tilemap:
   - first: {x: 21, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21223,11 +21223,11 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: e06a5aedebaba1d47939cd16271a1e78, type: 2}
   - m_RefCount: 9
     m_Data: {fileID: 11400000, guid: 10531776e89f7f341b1ca2e7ca557ce2, type: 2}
-  - m_RefCount: 94
+  - m_RefCount: 104
     m_Data: {fileID: 11400000, guid: 4592d5ddbddc91249a83f1b2bea3fc67, type: 2}
   - m_RefCount: 7
     m_Data: {fileID: 11400000, guid: 6b64104db503cc1419beb7d99d70f1f1, type: 2}
-  - m_RefCount: 1847
+  - m_RefCount: 1837
     m_Data: {fileID: 11400000, guid: d6cc9f09bb653c94d865524e4d938e92, type: 2}
   - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: 3ee9b49cf9d96c94980b1828029c500f, type: 2}
@@ -21240,11 +21240,11 @@ Tilemap:
     m_Data: {fileID: 7482667652216324306, guid: 8babb9bf34fac2d4eb2659c165bb6b61, type: 3}
   - m_RefCount: 9
     m_Data: {fileID: 21300000, guid: e8f5be1c0db455b41abc59d6e01a9b05, type: 3}
-  - m_RefCount: 94
+  - m_RefCount: 104
     m_Data: {fileID: 21300000, guid: 000a00aebf3e9ae4684332d89c50d78f, type: 3}
   - m_RefCount: 7
     m_Data: {fileID: 21300000, guid: fd57b55b014fd2b49967182620cfe8e2, type: 3}
-  - m_RefCount: 1847
+  - m_RefCount: 1837
     m_Data: {fileID: 21300000, guid: 8c0c5690fb7325c4496ad34e44506e0d, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 21300000, guid: 26fcef4e6b5137843beefff3402e6147, type: 3}
@@ -21944,6 +21944,7 @@ GameObject:
   - component: {fileID: 826810041}
   - component: {fileID: 826810040}
   - component: {fileID: 826810044}
+  - component: {fileID: 826810045}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -22125,6 +22126,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41ea1af6eb555d74f962fc33eb9755a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &826810045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826810038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a29f80e8a3128e41bca3d634c03e142, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &878139472
 GameObject:
   m_ObjectHideFlags: 0
@@ -22193,8 +22206,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3e906cb8ac71754586a93edecb3b408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointA: {fileID: 541586379}
-  pointB: {fileID: 1801416863}
+  pointA: {fileID: 1801416863}
+  pointB: {fileID: 541586379}
   speed: 2
 --- !u!50 &878139476
 Rigidbody2D:
@@ -23431,7 +23444,7 @@ Transform:
   m_GameObject: {fileID: 1801416863}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 55.5, y: 14.5, z: 2.4039536}
+  m_LocalPosition: {x: 55.03, y: 14.5, z: 2.4039536}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
