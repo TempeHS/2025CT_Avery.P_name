@@ -1,4 +1,4 @@
-/* using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -19,9 +19,11 @@ public class PlayerAttack : MonoBehaviour
                 // The time between swings
                 if(Input.GetKey(KeyCode.Mouse0)){
                     Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
-                    for(int i = 0; i < enemiesToDamage.Length; i++)
+                for (int i = 0; i < enemiesToDamage.Length; i++)
+                {
                     enemiesToDamage[i].GetComponent<EnemyHealth>().TakeDamage(damage);
-                timeBtwAttack = startTimeBtwAttack;
+                    timeBtwAttack = startTimeBtwAttack;
+                }
             }
             } else {
                 timeBtwAttack -= Time.deltaTime;
@@ -33,4 +35,4 @@ public class PlayerAttack : MonoBehaviour
                 Gizmos.DrawWireSphere(attackPos.position, attackRange);
             }
         }
-} */
+} 
