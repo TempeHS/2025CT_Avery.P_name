@@ -6,10 +6,18 @@ public class EnemyHealth : MonoBehaviour
 {
 
     public int currentHealth;
+    public int damage;
+   // public GameObject bloodEffect;
+    
+    void Update(){
+        if(currentHealth <= 0){
+            Destroy(gameObject);
+        }
+    }
 
-   
     public void TakeDamage(int damage){
-        currentHealth -+ damage;
+        //Instantiate(bloodEffect, transform.position, Quaternion.identity);
+        currentHealth -= damage;
         Debug.Log(" damage TAKEN ");
     } 
 } 

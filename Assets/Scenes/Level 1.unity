@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 434581618}
   - component: {fileID: 434581619}
   - component: {fileID: 434581620}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -394,7 +394,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aa401472cdcd9a49b2b3e9e41cdb127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1
+  currentHealth: 1
+  damage: 1
 --- !u!1 &444631741
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,7 +769,7 @@ GameObject:
   - component: {fileID: 722546517}
   - component: {fileID: 722546516}
   - component: {fileID: 722546515}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy (3)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -787,7 +788,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aa401472cdcd9a49b2b3e9e41cdb127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1
+  currentHealth: 1
+  damage: 1
 --- !u!95 &722546516
 Animator:
   serializedVersion: 5
@@ -21967,6 +21969,7 @@ Transform:
   m_Children:
   - {fileID: 881940315}
   - {fileID: 444631742}
+  - {fileID: 2013394798}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &826810040
@@ -22138,6 +22141,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a29f80e8a3128e41bca3d634c03e142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startTimeBtwAttack: 0.3
+  canAnim: {fileID: 0}
+  playerAnim: {fileID: 0}
+  attackPos: {fileID: 2013394798}
+  whatIsEnemies:
+    serializedVersion: 2
+    m_Bits: 256
+  attackRange: 1
+  damage: 1
 --- !u!1 &878139472
 GameObject:
   m_ObjectHideFlags: 0
@@ -22153,7 +22165,7 @@ GameObject:
   - component: {fileID: 878139475}
   - component: {fileID: 878139474}
   - component: {fileID: 878139473}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -22172,7 +22184,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aa401472cdcd9a49b2b3e9e41cdb127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1
+  currentHealth: 1
+  damage: 1
 --- !u!95 &878139474
 Animator:
   serializedVersion: 5
@@ -22394,7 +22407,7 @@ GameObject:
   - component: {fileID: 940266360}
   - component: {fileID: 940266359}
   - component: {fileID: 940266358}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy (6)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -22413,7 +22426,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aa401472cdcd9a49b2b3e9e41cdb127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1
+  currentHealth: 1
+  damage: 1
 --- !u!95 &940266359
 Animator:
   serializedVersion: 5
@@ -22635,7 +22649,7 @@ GameObject:
   - component: {fileID: 1004174145}
   - component: {fileID: 1004174144}
   - component: {fileID: 1004174143}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy (4)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -22654,7 +22668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aa401472cdcd9a49b2b3e9e41cdb127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1
+  currentHealth: 1
+  damage: 1
 --- !u!95 &1004174144
 Animator:
   serializedVersion: 5
@@ -22890,7 +22905,7 @@ GameObject:
   - component: {fileID: 1361006093}
   - component: {fileID: 1361006092}
   - component: {fileID: 1361006091}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -22909,7 +22924,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aa401472cdcd9a49b2b3e9e41cdb127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1
+  currentHealth: 1
+  damage: 1
 --- !u!95 &1361006092
 Animator:
   serializedVersion: 5
@@ -23193,7 +23209,7 @@ GameObject:
   - component: {fileID: 1777695024}
   - component: {fileID: 1777695023}
   - component: {fileID: 1777695022}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy (5)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -23212,7 +23228,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aa401472cdcd9a49b2b3e9e41cdb127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1
+  currentHealth: 1
+  damage: 1
 --- !u!95 &1777695023
 Animator:
   serializedVersion: 5
@@ -23449,6 +23466,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2013394797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2013394798}
+  m_Layer: 0
+  m_Name: AttackPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2013394798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013394797}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.698, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 826810039}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2082943567
 GameObject:
