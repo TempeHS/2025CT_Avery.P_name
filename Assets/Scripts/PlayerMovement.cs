@@ -29,10 +29,11 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
+        
 
-        if(Input.GetButtonDown("Jump") && IsGrounded())
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpingPower); 
+            rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
         }
 
         if(Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
