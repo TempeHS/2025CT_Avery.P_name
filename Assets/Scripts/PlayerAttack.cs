@@ -12,6 +12,7 @@ public class PlayerAttack : MonoBehaviour
    public LayerMask whatIsEnemies;
    public float attackRange;
    public int damage;
+    public float attackMove;
     
         void Update()
         {
@@ -31,7 +32,7 @@ public class PlayerAttack : MonoBehaviour
             } else {
                 timeBtwAttack -= Time.deltaTime;
             }   
-//hahahahahhahaha
+
            
         }
          void OnDrawGizmosSelected(){

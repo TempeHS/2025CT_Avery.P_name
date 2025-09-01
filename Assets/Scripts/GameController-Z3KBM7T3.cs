@@ -27,11 +27,16 @@ public class GameController : MonoBehaviour
 
     void Die()
     {
-        Respawn();
+        StartCoroutine(Respawn(0.5f));
     }
 
-    void Respawn()
+    IEnumerator Respawn(float duration)
     {
+        playerRb.simulated = false;
+        transform.localScale = new Vector3(0, 0, 0);
+        yield return new WaitForSeconds(duration);
         transform.position = startPos;
+        transform.localScale = new Vector3(1, 1, 1);
+        playerRb.simulated = true;
     }
 }
