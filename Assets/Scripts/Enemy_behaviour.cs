@@ -39,7 +39,8 @@ void Awake()
     {
         if (inRange)
         {
-            hit = Physics2D.Raycast(rayCast.position, Vector2.left, rayCastLength, raycastMask);
+            Vector2 direction = (target.transform.position - rayCast.position).normalized;
+            hit = Physics2D.Raycast(rayCast.position, direction, rayCastLength, raycastMask);
             RaycastDebugger();
         }
         //When Player is detected
@@ -103,7 +104,7 @@ void Awake()
         timer = intTimer;
         attackMode = true;
 
-        anim.SetBool("canwalk", false);
+        anim.SetBool("canWalk", false);
         anim.SetBool("Attack", true);
     }
 
