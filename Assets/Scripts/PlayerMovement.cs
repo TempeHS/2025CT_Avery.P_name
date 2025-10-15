@@ -64,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
         if (!isWallJumping)
         {
             rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-            anim.SetFloat("xVelocity", Math.Abs(rb.velocity.x));
+            anim.SetFloat("xVelocity", Mathf.Abs(rb.velocity.x));
             anim.SetFloat("yVelocity", rb.velocity.y);
 
         }
