@@ -14,6 +14,7 @@ public class PlayerAttack : MonoBehaviour
    public int damage;
     public float attackMove;
     
+    
         void Update()
         {
             
@@ -21,8 +22,9 @@ public class PlayerAttack : MonoBehaviour
                 // The time between swings
                 if(Input.GetKey(KeyCode.Mouse0)){
                    // canAnim.SetTrigger("shake");
-                   // playerAnim.SetTrigger("attack");
+                    //playerAnim.SetTrigger("attack");
                     Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
+                   
                 for (int i = 0; i < enemiesToDamage.Length; i++)
                 {
                     enemiesToDamage[i].GetComponent<EnemyHealth>().TakeDamage(damage);

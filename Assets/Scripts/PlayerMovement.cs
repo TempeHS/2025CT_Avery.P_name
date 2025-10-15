@@ -7,7 +7,8 @@ public class PlayerMovement : MonoBehaviour
     private float horizontal;
     private float speed = 8f;
     private float jumpingPower = 16f;
-    private bool isFacingRight = true;
+    private bool isFacingRight = true;   
+    Animator anim;
 
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
@@ -26,6 +27,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask wallLayer;
     
     // Update is called once per frame
+
+    void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
+
+
+
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
@@ -55,6 +64,9 @@ public class PlayerMovement : MonoBehaviour
         if (!isWallJumping)
         {
             rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+            anim.SetFloat("xVelocity", Math.Abs(rb.velocity.x));
+            anim.SetFloat("yVelocity", rb.velocity.y);
+
         }
     }
 
