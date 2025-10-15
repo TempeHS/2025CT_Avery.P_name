@@ -1,10 +1,10 @@
-## My game
+# Spiders
 
-My Game
+
 
 ## Description
 
-An in depth paragraph about your project and overview of use.
+This game is a simple 2D platformer where you attack groups of spiders that are scattered throughout the level, the goal is to make it to the top and kill all the spiders. Killing all the spiders is how you win.
 
 ## Getting Started
 
