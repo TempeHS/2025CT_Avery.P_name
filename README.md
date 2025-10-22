@@ -8,6 +8,18 @@ This game is a simple 2D platformer where you attack groups of spiders that are 
 
 ## Things that work :green_circle:
 
+ - The player can move and jump
+ - The player has a working idle and walk animation
+ - Moving enemies that move back and forth, and are capable of killing you
+ - A respawn feature so when killed you start again
+ - An attack so that you can kill the spiders before they kill you
+ - A walljump that lets you bounce on walls
+ - The main menu at the beggining of the game with a start button, options button and a quit button
+
+## Things that don't work :red_circle:
+
+ - 
+
 ## Getting Started
 
 ### Dependencies
