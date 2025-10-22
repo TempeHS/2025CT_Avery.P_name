@@ -4,7 +4,9 @@
 
 ## Description
 
-This game is a simple 2D platformer where you attack groups of spiders that are scattered throughout the level, the goal is to make it to the top and kill all the spiders. Killing all the spiders is how you win.
+This game is a simple 2D platformer where you attack groups of spiders that are scattered throughout the level, the goal is to make it to the top and kill all the spiders. Killing all the spiders is how you win. You play as a guy with a sword the city he lives in was infested by spiders. He feels the need to eradicate this problem.
+
+## Things that work :green_circle:
 
 ## Getting Started
 
