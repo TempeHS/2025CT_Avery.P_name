@@ -18,7 +18,9 @@ This game is a simple 2D platformer where you attack groups of spiders that are 
 
 ## Things that don't work :red_circle:
 
- - 
+ - The attack animation
+ - The enemy that was planned to have AI 
+ 
 
 ## Getting Started
 
