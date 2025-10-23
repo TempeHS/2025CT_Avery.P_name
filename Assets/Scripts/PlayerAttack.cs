@@ -15,6 +15,10 @@ public class PlayerAttack : MonoBehaviour
     public float attackMove;
     Animator anim;
     
+    void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
     
         void Update()
         {
@@ -24,7 +28,8 @@ public class PlayerAttack : MonoBehaviour
                 if(Input.GetKey(KeyCode.Mouse0)){
                    // canAnim.SetTrigger("shake");
                     //playerAnim.SetTrigger("attack");
-                    anim.SetBool("attack", true);
+                    anim.SetBool("Attack", true);
+                    
                     Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
                    
                 for (int i = 0; i < enemiesToDamage.Length; i++)
