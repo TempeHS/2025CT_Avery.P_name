@@ -57,6 +57,13 @@ Here are the links to the tutorials I followed
 - [Walljump and wallslide](https://youtu.be/O6VX6Ro7EtA?si=vunvXgcnf7KkFGuY)
 - [Implementing animation](https://youtu.be/Sg_w8hIbp4Y?si=qfrNK7FZeO_Itm38)
 - [Attack Tutorial](https://youtu.be/1QfxdUpVh5I?si=OPJz60mBvpF64x8R)
+- [Main menu tutorial](https://youtu.be/DX7HyN7oJjE?si=GuJCelmL13gNQS_n)
+- [Respawn](https://youtu.be/odStG_LfPMQ?si=75iPXhPENG36crD3)
+- [Tile Palette](https://youtu.be/vN4H7N_k3eg?si=59vRQyFJDF44vL4I)
+- [Camera Follow](https://youtu.be/QfLhSzeZaoA?si=CPhoywyxf_Nviifm)
+- [Enemey Ai, Setting Up](https://youtu.be/qgX941I-YqE?si=pqz6LqL4p7JPeGK0)
+- [Enemy Ai, Coding attack](https://youtu.be/waj6i9cQ6rM?si=QH59uCGbhTa9D9E3)
+- [Basic Enemy Patrolling](https://youtu.be/RuvfOl8HhhM?si=CMdv_IgQWeFpWhmu)
 
 
 
