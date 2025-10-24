@@ -2,9 +2,9 @@
 
 
 
-## Description
+## Description 
 
-This game is a simple 2D platformer where you attack groups of spiders that are scattered throughout the level, the goal is to make it to the top and kill all the spiders. Killing all the spiders is how you win. You play as a guy with a sword the city he lives in was infested by spiders. He feels the need to eradicate this problem.
+You run around a city as a hooded knight with a sword who has a vendetta against robotic spiders. The whole city was overrun with spiders and this man feels the need to kill them all. The goal is to kill all the spiders in this city as that is really the only thing you can do. The spiders aren't pushovers though as they can take you down in the same amount of hits it takes for you to kill them, 1. Everytime you do you get sent back to the beginning with the progress you made being saved meaning that enemies don't respawn unless you close and reopen the game. 
 
 ## Things that work :green_circle:
 
@@ -18,8 +18,9 @@ This game is a simple 2D platformer where you attack groups of spiders that are 
 
 ## Things that don't work :red_circle:
 
- - The attack animation
+ - The attack animation plays the first time you attack, and then overides the regular animation and only the attack will play.
  - The enemy that was planned to have AI 
+ 
  
 
 ## Getting Started
@@ -48,6 +49,16 @@ Any advise for common problems or issues.
 ```
 command to run if program contains helper info
 ```
+
+## Tutorials 
+Here are the links to the tutorials I followed
+
+- [Basic Walking and movement](https://youtu.be/K1xZ-rycYY8?si=0JWbixwB70NleL1Q)
+- [Walljump and wallslide](https://youtu.be/O6VX6Ro7EtA?si=vunvXgcnf7KkFGuY)
+- [Implementing animation](https://youtu.be/Sg_w8hIbp4Y?si=qfrNK7FZeO_Itm38)
+- [Attack Tutorial](https://youtu.be/1QfxdUpVh5I?si=OPJz60mBvpF64x8R)
+
+
 
 ## Authors
 
