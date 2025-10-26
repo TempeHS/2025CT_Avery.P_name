@@ -2,11 +2,11 @@
 
 
 
-## Description 
+## Description :page_with_curl:
 
 You run around a city as a hooded knight with a sword who has a vendetta against robotic spiders. The whole city was overrun with spiders and this man feels the need to kill them all. The goal is to kill all the spiders in this city as that is really the only thing you can do. The spiders aren't pushovers though as they can take you down in the same amount of hits it takes for you to kill them, 1. Everytime you do you get sent back to the beginning with the progress you made being saved meaning that enemies don't respawn unless you close and reopen the game. 
 
-## Things that work :green_circle:
+## Features that work :green_circle:
 
  - The player can move and jump
  - The player has a working idle and walk animation
@@ -16,8 +16,9 @@ You run around a city as a hooded knight with a sword who has a vendetta against
  - A walljump that lets you bounce on walls
  - The main menu at the beggining of the game with a start button, options button and a quit button
  - The camera follow
+ - The level and design
 
-## Things that don't work :red_circle:
+## Features that don't work :red_circle:
 
  - The attack animation plays the first time you attack, and then overides the regular animation and only the attack will play.
  - The enemy that was planned to have AI 
@@ -44,7 +45,7 @@ You run around a city as a hooded knight with a sword who has a vendetta against
 code blocks for commands
 ```
 
-### Controls
+### Controls :video_game: 
 
 | Action        | Key           |
 | ------------- | ------------- |
@@ -52,6 +53,10 @@ code blocks for commands
 | Walk Left     | A             |
 | Jump          | Space Bar     |
 | Attack        | Left Click    |
+
+### Objective
+
+The main objective is to eradicate the spider populaton in the city and make sure the spider problem is no longer a problem. You do this by running through the city and attacking every enemy being really slow and careful, using the walljump and slide to help distance yourself and make sure that you yourself doesn't get attacked. Making your way through you eventually while walking left get greeted with nothingness which is when you then have to jump down and move on to the next part of the city. After that you climb through the tower for another leap of faith, and once you gotten to the top platform you've beaten the game. 
 
 ## Help
 
@@ -75,7 +80,15 @@ Here are the links to the tutorials I followed
 - [Enemy Ai, Coding attack](https://youtu.be/waj6i9cQ6rM?si=QH59uCGbhTa9D9E3)
 - [Basic Enemy Patrolling](https://youtu.be/RuvfOl8HhhM?si=CMdv_IgQWeFpWhmu)
 
+## Challenges Faced During Development
 
+A lot of challenges arised during development, adding features was a challenge a lot of the time seeing as this is the first ever game i have developed, adding scripts and making all the code I had written work together was a challenge it felt like a puzzle at times. The first feature I had trouble with was the attack adding enemies wasn't too hard and took me only a couple of hours, but killing them was a challenge as setting up the attack to work and kill took a while. The main struggle though which never ended up working was the enemy who was planned to actually have attacks, even though the tutorial was clear and concise, I still messed it up. Getting animations to work was a huge challenge as well as getting the movement didn't work until I finally found the tutorial the cleared everything up for me getting the movement animation working and later the attack animation. All these challenges wer overcome through me trial and erroring a lot of stuff to understand what is going on and how the programming and code works. I learnt a lot from this project and I'm sure that the next game I make will be a lot better with all the knowledge I now have. 
+
+
+
+## Game Assets
+
+All the game assets were designed, drawn and animated by me. The were all drawn and animated in Aseprite and were designed on paper with a pencil.
 
 ## Authors
 
