@@ -15,6 +15,7 @@ You run around a city as a hooded knight with a sword who has a vendetta against
  - An attack so that you can kill the spiders before they kill you
  - A walljump that lets you bounce on walls
  - The main menu at the beggining of the game with a start button, options button and a quit button
+ - The camera follow
 
 ## Things that don't work :red_circle:
 
@@ -42,6 +43,15 @@ You run around a city as a hooded knight with a sword who has a vendetta against
 ```
 code blocks for commands
 ```
+
+### Controls
+
+| Action        | Key           |
+| ------------- | ------------- |
+| Walk Right    | D             |
+| Walk Left     | A             |
+| Jump          | Space Bar     |
+| Attack        | Left Click    |
 
 ## Help
 
