@@ -40,6 +40,7 @@ public class PlayerAttack : MonoBehaviour
             }
             } else {
                 timeBtwAttack -= Time.deltaTime;
+                anim.SetBool("Attack", false);
             }   
 
            
