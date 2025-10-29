@@ -46566,7 +46566,7 @@ MonoBehaviour:
   whatIsEnemies:
     serializedVersion: 2
     m_Bits: 256
-  attackRange: 100
+  attackRange: 1
   damage: 1
   attackMove: 0
 --- !u!60 &826810046
@@ -56257,8 +56257,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.00034999847, y: 0.00025001168, z: 0}
-    m_Extent: {x: 1.00055, y: 0.99975, z: 0}
+    m_Center: {x: -0.00035002828, y: 0, z: 0}
+    m_Extent: {x: 0.99985003, y: 1.0006, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
