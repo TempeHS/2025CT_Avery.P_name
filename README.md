@@ -20,7 +20,6 @@ You run around a city as a hooded knight with a sword who has a vendetta against
 
 ## Features that don't work :red_circle:
 
- - The attack animation plays the first time you attack, and then overides the regular animation and only the start of the attack animation will play
  - The enemy that was planned to have AI 
  
 
