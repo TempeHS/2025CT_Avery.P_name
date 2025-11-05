@@ -4,7 +4,7 @@
 
 ## Description :page_with_curl:
 
-A 2D action platformer kind of based off of the one hit kill mechanic in games like Hotline Miami and Katana Zero. The platforming is very basic and simple allowing for everybody to play and the combat is based around kiting the enemy and staying out of the way while you pick them off one by one. You run around a city as a hooded knight with a sword who has a vendetta against robotic spiders. The whole city was overrun with spiders and this man feels the need to kill them all. The goal is to kill all the spiders in this city as that is really the only thing you can do. The spiders aren't pushovers though as they can take you down in the same amount of hits it takes for you to kill them, one. Everytime you do you get sent back to the beginning with the progress you made being saved meaning that enemies don't respawn unless you close and reopen the game. 
+A 2D action platformer based off of the one hit kill mechanic in games like Hotline Miami and Katana Zero. The platforming is very basic and simple allowing for everybody to play and the combat is based around kiting the enemy and staying out of the way while you pick them off one by one. You run around a city as a hooded knight with a sword who has a vendetta against robotic spiders. The whole city was overrun with spiders and this man feels the need to kill them all. The goal is to kill all the spiders in this city as that is really the only thing you can do. The spiders aren't pushovers though as they can take you down in the same amount of hits it takes for you to kill them, one. Everytime you do you get sent back to the beginning with the progress you made being saved meaning that enemies don't respawn unless you close and reopen the game. 
 
 <img src="Idle.gif" width= "50">
 
@@ -15,9 +15,9 @@ A 2D action platformer kind of based off of the one hit kill mechanic in games l
  - Moving enemies that move back and forth, and are capable of killing you
  - A respawn feature so when killed you start again
  - An attack so that you can kill the spiders before they kill you
- - A walljump that lets you bounce on walls
+ - A walljump that lets you jump off of walls
  - The main menu at the beggining of the game with a start button, options button and a quit button
- - The camera follow
+ - Camera follow
  - The level and design
 
 ## Features that don't work :red_circle:
