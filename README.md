@@ -4,7 +4,7 @@
 
 ## Description :page_with_curl:
 
-A 2D action platformer kind of based off of the one hit kill mechanic in games like Hotline Miami and Katana Zero. The platformeing is very basic and simple allowing for everybody to play and the combat is based around kiting the enemy and staying out of the way while you pick them off one by one. You run around a city as a hooded knight with a sword who has a vendetta against robotic spiders. The whole city was overrun with spiders and this man feels the need to kill them all. The goal is to kill all the spiders in this city as that is really the only thing you can do. The spiders aren't pushovers though as they can take you down in the same amount of hits it takes for you to kill them, 1. Everytime you do you get sent back to the beginning with the progress you made being saved meaning that enemies don't respawn unless you close and reopen the game. 
+A 2D action platformer kind of based off of the one hit kill mechanic in games like Hotline Miami and Katana Zero. The platforming is very basic and simple allowing for everybody to play and the combat is based around kiting the enemy and staying out of the way while you pick them off one by one. You run around a city as a hooded knight with a sword who has a vendetta against robotic spiders. The whole city was overrun with spiders and this man feels the need to kill them all. The goal is to kill all the spiders in this city as that is really the only thing you can do. The spiders aren't pushovers though as they can take you down in the same amount of hits it takes for you to kill them, one. Everytime you do you get sent back to the beginning with the progress you made being saved meaning that enemies don't respawn unless you close and reopen the game. 
 
 ## Features that work :green_circle:
 
@@ -56,6 +56,7 @@ code blocks for commands
 | Walk Left     | A             |
 | Jump          | Space Bar     |
 | Attack        | Left Click    |
+| Interacting with the menu | Left Click |
 
 ### Objective
 
