@@ -91,7 +91,9 @@ A lot of challenges arised during development, adding features was a challenge a
 
 ## Game Assets
 
-All the game assets were designed, drawn and animated by me. The were all drawn and animated in Aseprite and were designed on paper with a pencil. <img src="StrawEnemyIdle.gif" width= "100">
+All the game assets were designed, drawn and animated by me. The were all drawn and animated in Aseprite and were designed on paper with a pencil. 
+
+<img src="StrawEnemyIdle.gif" width= "100">
 
 ## Authors
 
