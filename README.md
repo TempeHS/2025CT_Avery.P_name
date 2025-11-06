@@ -64,6 +64,24 @@ code blocks for commands
 
 The main objective is to eradicate the spider populaton in the city and make sure the spider problem is no longer a problem. You do this by running through the city and attacking every enemy being really slow and careful, using the walljump and slide to help distance yourself and make sure that you yourself doesn't get attacked. Making your way through you eventually while walking left get greeted with nothingness which is when you then have to jump down and move on to the next part of the city. After that you climb through the tower for another leap of faith, and once you gotten to the top platform you've beaten the game. 
 
+## How I implemented my features
+
+The features that were implemented in the game was that of:
+
+Basic movement(ie walking, jumping) this was the first thing I implemented in my game it was done by using [Basic Walking and movement](https://youtu.be/K1xZ-rycYY8?si=0JWbixwB70NleL1Q) tutorial and the final product was this script [PlayerMovement](https://github.com/TempeHS/2025CT_Avery.P_name/blob/newbranch/Assets/Scripts/PlayerMovement.cs).
+
+The animations was actually one of the last things I did in this project as I was trying to get a working game first so I started with the wheel first to make the gameplay then started on the bike with these animations. I followed [Implementing animation](https://youtu.be/Sg_w8hIbp4Y?si=qfrNK7FZeO_Itm38) with this tutorial I was able to end up with an animation tree. 
+
+<img src="Animatorscreenshot.png" width= "350">
+
+The enemies that were implemented were a basic enemy type that roam back and forth from point to point. These enemies have a collider that damages the enemy and kills him. The tutorial I used for this was [Basic Enemy Patrolling](https://youtu.be/RuvfOl8HhhM?si=CMdv_IgQWeFpWhmu). This tutorial was followed closely and ended up with [enemy_Patrol](https://github.com/TempeHS/2025CT_Avery.P_name/blob/newbranch/Assets/Scripts/enemyPatrol.cs). The enemy does damage from the sprite renderer so its not a very generous hitbox.
+
+Respawning was something that was necessary as if I just killed the player and then you would have to shut the game every time. [Respawn](https://youtu.be/odStG_LfPMQ?si=75iPXhPENG36crD3) was the tutorial I followed and this worked perfectly making the [Respawnscript](https://github.com/TempeHS/2025CT_Avery.P_name/blob/newbranch/Assets/Scripts/GameController.cs) which was my final script for respawning.
+
+After implementing those two the final thing I needed was a way to get rid of the spiders this was done through having the player have an attack. The attack is something that was done by the following [Attack Tutorial](https://youtu.be/1QfxdUpVh5I?si=OPJz60mBvpF64x8R) and ended up making these scripts [Player Attack](https://github.com/TempeHS/2025CT_Avery.P_name/blob/newbranch/Assets/Scripts/GameController.cs) and [Enemy Helath](https://github.com/TempeHS/2025CT_Avery.P_name/blob/newbranch/Assets/Scripts/EnemyHealth.cs).
+
+The wall jump was actually done right after the basic movement this was done by me following [Walljump and wallslide](https://youtu.be/O6VX6Ro7EtA?si=vunvXgcnf7KkFGuY) and I ended up with [Walljump code]((https://github.com/TempeHS/2025CT_Avery.P_name/blob/newbranch/Assets/Scripts/PlayerMovement.cs). 
+
 ## Help
 
 Any advise for common problems or issues.
