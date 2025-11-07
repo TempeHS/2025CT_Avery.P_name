@@ -80,7 +80,7 @@ Respawning was something that was necessary as if I just killed the player and t
 
 After implementing those two the final thing I needed was a way to get rid of the spiders this was done through having the player have an attack. The attack is something that was done by the following [Attack Tutorial](https://youtu.be/1QfxdUpVh5I?si=OPJz60mBvpF64x8R) and ended up making these scripts [Player Attack](https://github.com/TempeHS/2025CT_Avery.P_name/blob/newbranch/Assets/Scripts/GameController.cs) and [Enemy Helath](https://github.com/TempeHS/2025CT_Avery.P_name/blob/newbranch/Assets/Scripts/EnemyHealth.cs).
 
-The wall jump was actually done right after the basic movement this was done by me following [Walljump and wallslide](https://youtu.be/O6VX6Ro7EtA?si=vunvXgcnf7KkFGuY) and I ended up with [Walljump code]((https://github.com/TempeHS/2025CT_Avery.P_name/blob/newbranch/Assets/Scripts/PlayerMovement.cs). 
+The wall jump was actually done right after the basic movement this was done by me following [Walljump and wallslide](https://youtu.be/O6VX6Ro7EtA?si=vunvXgcnf7KkFGuY) and I ended up with [Walljump code](https://github.com/TempeHS/2025CT_Avery.P_name/blob/newbranch/Assets/Scripts/PlayerMovement.cs). 
 
 ## Help
 
