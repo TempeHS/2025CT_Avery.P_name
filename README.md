@@ -26,6 +26,7 @@ A 2D action platformer based off of the one hit kill mechanic in games like Hotl
  
 
 ## Gameplay
+This video showcases the main gameplay of the game, kiting and attacking.
 
 ![Gameplay](Computertechproject.gif)
  
