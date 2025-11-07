@@ -82,6 +82,14 @@ After implementing those two the final thing I needed was a way to get rid of th
 
 The wall jump was actually done right after the basic movement this was done by me following [Walljump and wallslide](https://youtu.be/O6VX6Ro7EtA?si=vunvXgcnf7KkFGuY) and I ended up with [Walljump code](https://github.com/TempeHS/2025CT_Avery.P_name/blob/newbranch/Assets/Scripts/PlayerMovement.cs). 
 
+The main menu was done really quickly so the sprites for it are not being used in my code, but [Main menu tutorial](https://youtu.be/DX7HyN7oJjE?si=GuJCelmL13gNQS_n) si the tutorial I used and all of this lead to me ending up with [Main menu code](https://github.com/TempeHS/2025CT_Avery.P_name/blob/newbranch/Assets/Scripts/MainMenu.cs). The main menu is something that could have been utilised more as after you press play it is never seen again.
+
+The camera following the player was something that was very important as without it the entire game would have to take place on a single screen with nothing else going on this led to me using [Camera Follow](https://youtu.be/QfLhSzeZaoA?si=CPhoywyxf_Nviifm) tutorial. The script I ended up with from following this tutorial was a basic script where the camera is locked onto the player to follow it and you can adjust the smooth time. [CameraController](https://github.com/TempeHS/2025CT_Avery.P_name/blob/newbranch/Assets/Scripts/CameraController.cs) was my final script.
+
+Designing the level was something that was extremely important as without it there is nowhere to go. So I followed [Tile Palette](https://youtu.be/vN4H7N_k3eg?si=59vRQyFJDF44vL4I) to help me make a tile pallete that made designing the level much easier then just laying out a lot of blocks in every spot. Tile palettes make level designing a lot easier. 
+
+<img src="Tilepalette.png" width= "350">
+
 ## Help
 
 Any advise for common problems or issues.
