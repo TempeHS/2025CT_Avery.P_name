@@ -117,7 +117,9 @@ Here are the links to the tutorials I followed
 
 A lot of challenges arised during development, adding features was a challenge a lot of the time seeing as this is the first ever game i have developed, adding scripts and making all the code I had written work together was a challenge it felt like a puzzle at times. The first feature I had trouble with was the attack adding enemies wasn't too hard and took me only a couple of hours, but killing them was a challenge as setting up the attack to work and kill took a while. The main struggle though which never ended up working was the enemy who was planned to actually have attacks, even though the tutorial was clear and concise, I still messed it up. Getting animations to work was a huge challenge as well as getting the movement didn't work until I finally found the tutorial the cleared everything up for me getting the movement animation working and later the attack animation. All these challenges wer overcome through me trial and erroring a lot of stuff to understand what is going on and how the programming and code works. I learnt a lot from this project and I'm sure that the next game I make will be a lot better with all the knowledge I now have. 
 
+## Software used
 
+Visual Studio Code was what I used to edit and write my scripts. It was then linked and the game editor was Unity.
 
 ## Game Assets
 
@@ -131,6 +133,9 @@ Contributors names and contact info
 
 ex. Mr Jones
 ex. [@benpaddlejones](https://github.com/benpaddlejones)
+
+Developer and artist - Avery Pilcer
+
 
 ## Version History
 
