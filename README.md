@@ -88,7 +88,7 @@ The camera following the player was something that was very important as without
 
 Designing the level was something that was extremely important as without it there is nowhere to go. So I followed [Tile Palette](https://youtu.be/vN4H7N_k3eg?si=59vRQyFJDF44vL4I) to help me make a tile pallete that made designing the level much easier then just laying out a lot of blocks in every spot. Tile palettes make level designing a lot easier. 
 
-<img src="Tilepalette.png" width= "350">
+<img src="Tilepalette.png" width= "240">
 
 ## Help
 
